@@ -39,12 +39,14 @@ class System:
 
             # update
             for i in self.__game_state.kinetic_objects:
-                i.update
+                i.update()
             # Draw
-            self.__win.fill((12, 24, 255))
+            self.__win.fill((12, 24, 36))
             for i in self.__game_state.objects:
                 i.draw(self.__win)
 
+
+            pygame.display.flip()
             self.__clk.tick(self.__clk_speed)
 
 

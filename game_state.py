@@ -1,7 +1,7 @@
 from player import Player
 class Game_state:
     def __init__(self, playerX, playerY):
-        self.__player =  Player(playerX, playerY, 50, 3)
+        self.__player =  Player(playerX, playerY, 50, 1.5)
         self.__objects = [self.__player]
         self.__kinetic_objects = [self.__player]
         self.__command_objects = [self.__player]

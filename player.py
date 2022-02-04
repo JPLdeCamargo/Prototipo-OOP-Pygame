@@ -38,6 +38,7 @@ class Player:
         if self.__commands['down'] and not self.__commands['up']:
             self.__velY = self.__speed
         
+        self.normalize()
         self.__x += self.__velX
         self.__y += self.__velY 
 

@@ -1,16 +1,20 @@
-criar sistema de herancas para objetos
-debugar tudo isso
+
+
+---criar sistema de herancas para objetos
+
 -----------------------feito---------------------------------
 
-lista de comandos em player e em futuras classes com outros comandos
-player tem self.x etc
-fazer lista desses argumentos
-criar lista em game_state com classes que precisam de input
-usar isso para fazer um if em update usando o event_handler
-for comando in comandos{
-    for objeto in listainput{
-        for possiveiscomandos in objeto{
-            if comando existe em possiveis comandos: executar
+----lista de comandos em player e em futuras classes com outros comandos
+    player tem self.x etc
+    fazer lista desses argumentos
+    criar lista em game_state com classes que precisam de input
+    usar isso para fazer um if em update usando o event_handler
+    for comando in comandos{
+        for objeto in listainput{
+            for possiveiscomandos in objeto{
+                if comando existe em possiveis comandos: executar
+            }
         }
     }
-}
+    
+---debugar tudo isso
