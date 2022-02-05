@@ -16,6 +16,10 @@ class Player:
     @property
     def commands(self):
         return self.__commands
+
+    @commands.setter
+    def commands(self, new_commands: dict):
+        self.__commands = new_commands
     
     # usar para normalizar os vetores de velocidade, caso contrario, anda mais rápido nas diagonais
     def normalize(self):
